@@ -29,7 +29,7 @@ class PieViewController: UIViewController, ChartViewDelegate {
             entries.append(ChartDataEntry(x: Double(number), y: Double.random(in: 0.0...Double(number))))
         }
         let set = PieChartDataSet(entries: entries)
-        set.colors = ChartColorTemplates.colorful()
+        set.colors = ChartColorTemplates.liberty()
         let pieChartData = PieChartData(dataSet: set)
         pieChart.data = pieChartData
     }

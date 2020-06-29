@@ -16,6 +16,7 @@
 		DA43D3C424A5DD880007F933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA43D3C224A5DD880007F933 /* LaunchScreen.storyboard */; };
 		DA43D3CC24A5E0E90007F933 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43D3CB24A5E0E90007F933 /* LineViewController.swift */; };
 		DA43D3CE24A5E0F00007F933 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43D3CD24A5E0F00007F933 /* PieViewController.swift */; };
+		DA5C303224A9DF7F0070141A /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = DA5C303124A9DF7F0070141A /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DA43D3C524A5DD880007F933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA43D3CB24A5E0E90007F933 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
 		DA43D3CD24A5E0F00007F933 /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		DA5C303124A9DF7F0070141A /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				DA43D3B624A5DD870007F933 /* ChartsApp */,
+				DA5C303124A9DF7F0070141A /* Screenshots */,
 				DA43D3B524A5DD870007F933 /* Products */,
 				D1892E4001DA6B27ADE0392C /* Pods */,
 				776C4FB1435859DF2993C433 /* Frameworks */,
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5C303224A9DF7F0070141A /* Screenshots in Resources */,
 				DA43D3C424A5DD880007F933 /* LaunchScreen.storyboard in Resources */,
 				DA43D3C124A5DD880007F933 /* Assets.xcassets in Resources */,
 				DA43D3BF24A5DD870007F933 /* Main.storyboard in Resources */,
